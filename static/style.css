@@ -1,0 +1,30 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.content {
+  font: 'Noto Serif TC';
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+input, select {
+  margin: 5px 0px;
+  width: 40vw;
+  height: 5ch;
+}
+
+.pc {
+  margin-top: 15px;
+  border-radius: 0.8vh;
+  height: 40vh;
+}
+
+.banner {
+	width: 100%;
+}

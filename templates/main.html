@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>抽卡模擬器</title>
+<meta name="description" content="draw pcs!">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <img class="banner" src="{{ banner }}"></img>
+  <div class="content">
+  <form method="post">
+    <div>
+      <label for="n">專輯:</label>
+    </div>
+    <div>
+      <select id="n" name="n">
+        <option value=0>NCT127 - STICKER (sticky ver.)</option>
+        <option value=1>NCT127 - STICKER (sticker ver.)</option>
+        <option value=2>NCT DREAM - Hello Future (hello ver.)</option>
+        <option value=3>NCT DREAM - Hello Future (future ver.)</option>
+        <option value=4>WayV - Kick Back (stranger ver.)</option>
+        <option value=5>WayV - Kick Back (hitchhiker ver.)</option>
+      </select>
+    </div>
+  <div>
+    <input type="submit" value="抽卡!">
+  </div>
+  </form>
+    <img class="pc" src="{{ img }}"></img>
+  </div>
+	  
+</body>
+</html>
