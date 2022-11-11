@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KCFXVZ93Y6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-KCFXVZ93Y6');
+</script>
 <title>抽卡模擬器</title>
 <meta name="description" content="draw pcs!">
 <meta charset="utf-8">
@@ -14,7 +22,7 @@
 
 </head>
 <body>
-  <img class="banner" src="{{ banner }}"></img>
+  <a href='/'><img class="banner" src="{{ banner }}"></img></a>
   <div class="content">
   <form method="post">
     <div>
@@ -28,14 +36,17 @@
         <option value=3>NCT DREAM - Hello Future (future ver.)</option>
         <option value=4>WayV - Kick Back (stranger ver.)</option>
         <option value=5>WayV - Kick Back (hitchhiker ver.)</option>
+        <option value=6>ATEEZ - The World EP.1: Movement (diary ver.) (第二個卡池現在只有12)</option>
       </select>
     </div>
   <div>
     <input type="submit" value="抽卡!">
   </div>
   </form>
-    <img class="pc" src="{{ img }}"></img>
+  {% for i in img%}
+  <img class="pc" src="{{ i }}"></img>
+  {% endfor %} 
   </div>
-	  
+
 </body>
 </html>

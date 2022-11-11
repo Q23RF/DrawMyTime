@@ -10,7 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 0px;
+  padding: 30px 0px;
 }
 
 input, select {
@@ -19,8 +19,12 @@ input, select {
   height: 5ch;
 }
 
+input[type=submit] {
+  margin-bottom: 15px;
+}
+
 .pc {
-  margin-top: 15px;
+  margin: 15px 0px;
   border-radius: 0.8vh;
   height: 40vh;
 }
