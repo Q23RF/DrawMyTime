@@ -3,7 +3,7 @@ from PIL import Image
 import functions
 
 app = Flask(__name__)
-albums = ['sticky','sticker','hello','future','stranger','hitchhiker','diary']
+albums = ['sticky','sticker','hello','future','stranger','hitchhiker','diary','hide','i-love-jc','ver1','ver2']
 
 	
 
@@ -20,10 +20,11 @@ def main():
             pc = Image.open(pn)
             pc.save('static/{}.jpg'.format(dn))
             img_list.append(url_for('static',filename='{}.jpg'.format(dn)))
-        return render_template('main.html',img=img_list, banner=url_for('static',filename='banner.jpg'))
+
 
     else:
-            return render_template('main.html', banner=url_for('static',filename='banner.jpg'))
+        img_list = [url_for('static',filename='blank.jpg')]
+    return render_template('main.html',img=img_list, banner=url_for('static',filename='banner.jpg'))
 		
 
 

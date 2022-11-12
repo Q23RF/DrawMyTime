@@ -15,38 +15,50 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
-
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@600&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/68144b1df7.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <a href='/'><img class="banner" src="{{ banner }}"></img></a>
-  <div class="content">
+  <a href='/' ><img class="banner" src="{{ banner }}"></img></a>
+<div class="holder">
+  <div class="news">芙妹ID卡bug修不好先刪了</div>
+</div>
+
+<div class="content">
   <form method="post">
     <div>
       <label for="n">專輯:</label>
     </div>
     <div>
       <select id="n" name="n">
-        <option value=0>NCT127 - STICKER (sticky ver.)</option>
-        <option value=1>NCT127 - STICKER (sticker ver.)</option>
-        <option value=2>NCT DREAM - Hello Future (hello ver.)</option>
-        <option value=3>NCT DREAM - Hello Future (future ver.)</option>
-        <option value=4>WayV - Kick Back (stranger ver.)</option>
-        <option value=5>WayV - Kick Back (hitchhiker ver.)</option>
-        <option value=6>ATEEZ - The World EP.1: Movement (diary ver.) (第二個卡池現在只有12)</option>
+        <option value=0>NCT127 - STICKER sticky ver. (1 out of 9)</option>
+        <option value=1>NCT127 - STICKER sticker ver. (1 out of 9)</option>
+        <option value=2>NCT DREAM - Hello Future hello ver. (1 out of 7)</option>
+        <option value=3>NCT DREAM - Hello Future future ver. (1 out of 7)</option>
+        <option value=4>WayV - Kick Back stranger ver. (1 out of 6)</option>
+        <option value=5>WayV - Kick Back hitchhiker ver. (1 out of 6)</option>
+        <option value=6>ATEEZ - The World EP.1: Movement diary ver. (2 out of 16)</option>
+        <option value=7>PURPLE K!SS - HIDE & SEEK hide ver. (2 out of 14)</option>
+        <option value=8>(G)I-DLE - I LOVE jewel case ver. (3 out of 15)</option>
+        <option value=9>IVE - ELEVEN ver. 1 (1 out of 6)</option>
+        <option value=10>IVE - ELEVEN(ver. 2 (1 out of 6)</option>
       </select>
     </div>
   <div>
     <input type="submit" value="抽卡!">
   </div>
   </form>
-  {% for i in img%}
+  {% for i in img %}
   <img class="pc" src="{{ i }}"></img>
   {% endfor %} 
-  </div>
-
+</div>
+<footer>
+	<a href="https://github.com/Q23RF/DrawMyTime" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a href="https://twitter.com/INTO105202145?s=20&t=EzQZGuU6BlGluj3jHYzAjg" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+	<a href="https://www.instagram.com/man9oz21/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+</footer>
 </body>
 </html>
