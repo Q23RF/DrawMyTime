@@ -3,7 +3,7 @@ from PIL import Image
 import functions
 
 app = Flask(__name__)
-albums = ['sticky','sticker','hello','future','stranger','hitchhiker','diary','hide','i-love-jc','ver1','ver2','xxB']
+albums = ['sticky','sticker','hello','future','stranger','hitchhiker','diary','hide','i-love-jc','ver1','ver2','xxB','BlueHourR']
 
 	
 

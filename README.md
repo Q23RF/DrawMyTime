@@ -13,4 +13,5 @@
 	- PURPLE K!SS: Twitter@purki_scans
 	- IVE: Twitter@IVESCANS
     - LOONA: Twitter@yvesiren
+    - TXT: Twitter@txtpocas
 
