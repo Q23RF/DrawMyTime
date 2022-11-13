@@ -12,4 +12,5 @@
 	- (G)I-DLE: WeiBo@·SANTABABY·, @TRUSTIII, @哈特少女
 	- PURPLE K!SS: Twitter@purki_scans
 	- IVE: Twitter@IVESCANS
+    - LOONA: Twitter@yvesiren
 

@@ -32,7 +32,7 @@ input[type=submit] {
 .pc {
   aspect-ratio: 2 / 3;
   margin: 15px 0px;
-  border-radius: 1vh;
+  border-radius: 1.5vh;
   height: 40vh;
 }
 
