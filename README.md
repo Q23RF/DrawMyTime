@@ -6,8 +6,10 @@
 
 ## 圖源
 - icon: https://www.flaticon.com/free-icons/flash-card
-- NCT: Twitter@scansfornct
-- (G)I-DLE: WeiBo@·SANTABABY·, @TRUSTIII, @哈特少女
-- PURPLE K!SS: Twitter@purki_scans
-- IVE: Twitter@IVESCANS
+- banner: https://lab.magiconch.com/eva-title/?layout=e1
+- PC scans:
+	- NCT: Twitter@scansfornct
+	- (G)I-DLE: WeiBo@·SANTABABY·, @TRUSTIII, @哈特少女
+	- PURPLE K!SS: Twitter@purki_scans
+	- IVE: Twitter@IVESCANS
 
