@@ -41,14 +41,13 @@ input[type=submit] {
 }
 
 .holder {
-  background:#f5f5f5;
+  background:#e3e0e7;
   padding:0.5rem;
-  margin-top: 20px;
+  margin-top: 16px;
   overflow: hidden;
 }
 .news {
-  animation : slide 20s linear infinite;
-  
+  animation : slide 15s linear infinite;
 }
 
 @keyframes slide {
@@ -57,7 +56,7 @@ input[type=submit] {
   }
 
   100% {
-    transform: translatex(-45%)
+    transform: translatex(-50%)
   }
 }
 
@@ -79,4 +78,16 @@ footer>div,  footer>a {
 
 i {
 	color: #e1e0e4;
+}
+
+@media (max-width: 480px) {
+	@keyframes slide {
+	  0% {
+		transform: translatex(100%)
+	  }
+	
+	  100% {
+		transform: translatex(-80%)
+	  }
+	}
 }

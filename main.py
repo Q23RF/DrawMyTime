@@ -24,7 +24,7 @@ def main():
 
     else:
         img_list = [url_for('static',filename='blank.jpg')]
-    return render_template('main.html',img=img_list, banner=url_for('static',filename='banner.jpg'))
+    return render_template('main.html',pcs=img_list, banner=url_for('static',filename='banner.jpg'))
 		
 
 
