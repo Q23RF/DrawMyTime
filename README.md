@@ -14,4 +14,5 @@
 	- IVE: Twitter@IVESCANS
     - LOONA: Twitter@yvesiren
     - TXT: Twitter@txtpocas
+    - SEVENTEEN: https://drive.google.com/drive/folders/1VeTnj8-mlEtV8X4Tfi8O5fFV1THtrxBK
 

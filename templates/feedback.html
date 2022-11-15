@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-KCFXVZ93Y6"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KCFXVZ93Y6');
+</script>
+<title>抽卡模擬器</title>
+<meta name="description" content="draw pcs!">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/68144b1df7.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+  <a href='/' ><img class="banner" src="{{ url_for('static', filename='banner.jpg') }}"></img></a>
+
+
+<div class="holder">
+  <div class="news">有想抽的團可以IG找我許願~</div>
+</div>
+
+
+<div class="content">
+  <form class="feedback" action="#" method="post">
+    <div><input type="text" id="fb" name="fb"></div>
+    <div><input style="width: 100px;" type="submit" value="送出"></div>
+</div>
+
+
+<footer>
+	<a href="https://github.com/Q23RF/DrawMyTime" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a href="https://twitter.com/INTO105202145?s=20&t=EzQZGuU6BlGluj3jHYzAjg" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+	<a href="https://www.instagram.com/man9oz21/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    <a href="/feedback">Feedback</a>
+</footer>
+
+</body>
+</html>

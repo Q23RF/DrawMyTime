@@ -26,7 +26,6 @@ input, select {
 input[type=submit] {
   margin-bottom: 15px;
   font-family: 'Noto Serif TC', serif;
-
 }
 
 .pc {
@@ -34,6 +33,12 @@ input[type=submit] {
   margin: 15px 0px;
   border-radius: 1.5vh;
   height: 40vh;
+}
+
+.feedback {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .banner {
@@ -72,8 +77,10 @@ footer {
 	padding: 0 max(0.7vw, 14px);
 }
 
-footer>div,  footer>a {
+footer>a {
 	margin: 0 max(0.7vw, 14px);
+	color: #ffffff;
+	text-decoration: none;
 }
 
 i {

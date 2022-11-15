@@ -3,7 +3,7 @@ from PIL import Image
 import functions
 
 app = Flask(__name__)
-albums = ['sticky','sticker','hello','future','stranger','hitchhiker','diary','hide','i-love-jc','ver1','ver2','xxB','BlueHourR']
+albums = ['sticky','sticker','hello','future','stranger','hitchhiker','diary','hide','i-love-jc','ver1','ver2','xxB','BlueHourR','attacca1']
 
 	
 
@@ -26,7 +26,12 @@ def main():
         img_list = [url_for('static',filename='blank.jpg')]
     return render_template('main.html',pcs=img_list, banner=url_for('static',filename='banner.jpg'))
 		
-
+@app.route('/feedback', methods=["POST", "GET"])
+def feedback():
+    if request.method == "POST":
+        fb = request.form["fb"]
+        functions.send_line(fb)
+    return render_template('feedback.html')
 
 	
 app.run(host='0.0.0.0', port=81)
