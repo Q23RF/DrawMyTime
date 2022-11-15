@@ -56,7 +56,7 @@ input[type=submit] {
   }
 
   100% {
-    transform: translatex(-50%)
+    transform: translatex(-45%)
   }
 }
 
@@ -87,7 +87,7 @@ i {
 	  }
 	
 	  100% {
-		transform: translatex(-80%)
+		transform: translatex(-90%)
 	  }
 	}
 }
