@@ -12,7 +12,7 @@
 	- **(G)I-DLE**: WeiBo@·SANTABABY·, @TRUSTIII, @哈特少女
 	- **PURPLE K!SS**: Twitter@purki_scans
 	- **IVE**: Twitter@IVESCANS
-    - **LOONA**: Twitter@yvesiren
+    - **LOONA**: Twitter@yvesiren, https://drive.google.com/drive/u/1/folders/1szzWiPyXIWQbV3Dlu1rPSco1LONPvaeZ
     - **TXT**: Twitter@txtpocas
     - **SEVENTEEN**: https://drive.google.com/drive/folders/1VeTnj8-mlEtV8X4Tfi8O5fFV1THtrxBK
     - **MAMAMOO**: https://drive.google.com/drive/folders/1yEk0G1OVda-D_byEqORgcDEiLUbPZHWE
@@ -21,5 +21,9 @@
     - **TWICE**: Twitter@kpopscaaans
     - **Stray** Kids: https://www.pinterest.com/galaxy262/stray-kids-photocards/ & Twitter@ksmscans
     - **BTS**: FaceBook@BTSgalaxyfrvr
-    - **ITZY**: Twitter@ivebluefrost
+    - **ITZY**: https://www.pinterest.com/Sweet_Venus9/crazy-in-love/
     - **WEEEKLY**: https://www.pinterest.com/celesteocn/weeekly-photocard-scan/
+    - **LESSERAFIM**: https://www.pinterest.com/c0zyyjeongyeonn/le-sserafim-photocards/antifragile/
+    - **ONEUS**: Twitter@kikkelipippeli
+    - **ENHYPEN**: Twitter@ado2re
+    - **Red Velvet**: WeiBo@RedVelvet_Happiness

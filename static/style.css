@@ -17,6 +17,7 @@ input, select {
   -webkit-appearance: none;
   -webkit-border-radius: none;
   border-radius: 3px;
+  background: #f0f0f0;
   margin: 8px 0px;
   padding: 5px;
   width: 40vw;
