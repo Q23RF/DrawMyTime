@@ -18,3 +18,4 @@
     - MAMAMOO: https://drive.google.com/drive/folders/1yEk0G1OVda-D_byEqORgcDEiLUbPZHWE
     - Astro: https://drive.google.com/drive/u/0/folders/1qkx38uiwuOphZann9028nTkTr0WVAcR8
     - Kep1er: Twitter@kep1erseucan
+    - TWICE: Twitter@kpopscaaans
