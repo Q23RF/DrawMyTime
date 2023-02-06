@@ -3,7 +3,7 @@ from PIL import Image
 import functions
 
 app = Flask(__name__)
-albums = ['sticky','sticker','hello','future','stranger','hitchhiker','diary','hide','i-love-jc','ver1','ver2','xxB','BlueHourR','attacca1','MicOnMain','BlueBlastJC','fallen','t-crush','tearU','holidayM','antifragile','BloodMoonG','CrazyInLove','BorderDayOne','1200B','queendomQ','vctc','nct2020KihnoDeparture','DTSR','FOEF','FOEE','patbingsu','FavCatharsis','FavClassic','witnessLimited']
+albums = ['sticky','sticker','hello','future','stranger','hitchhiker','diary','hide','i-love-jc','ver1','ver2','xxB','BlueHourR','attacca1','MicOnMain','BlueBlastJC','fallen','t-crush','tearU','holidayM','antifragile','BloodMoonG','CrazyInLove','BorderDayOne','1200B','queendomQ','vctc','nct2020KihnoDeparture','DTSR','FOEF','FOEE','patbingsu','FavCatharsis','FavClassic','witnessLimited','temptationDaydream']
 
 @app.route('/', methods=["POST", "GET"])
 def main():
