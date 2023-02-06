@@ -1,4 +1,6 @@
 # 抽卡模擬器
+**[暫時停服公告](https://hackmd.io/@gBTyCODBRneIN12giDxbfQ/HJESj-48i)**
+
 ## to-dos
 - ~~版頭~~
 - ~~一專多卡~~
