@@ -3,8 +3,7 @@ from PIL import Image
 import functions
 
 app = Flask(__name__)
-albums = ['sticky','sticker','hello','future','stranger','hitchhiker','diary','hide','i-love-jc','ver1','ver2','xxB','BlueHourR','attacca1','MicOnMain','BlueBlastJC','fallen','t-crush','tearU','holidayM','antifragile','BloodMoonG','CrazyInLove','BorderDayOne','1200B','queendomQ','vctc']
-
+albums = ['sticky','sticker','hello','future','stranger','hitchhiker','diary','hide','i-love-jc','ver1','ver2','xxB','BlueHourR','attacca1','MicOnMain','BlueBlastJC','fallen','t-crush','tearU','holidayM','antifragile','BloodMoonG','CrazyInLove','BorderDayOne','1200B','queendomQ','vctc','nct2020KihnoDeparture','DTSR','FOEF','FOEE','patbingsu','FavCatharsis','FavClassic','witnessLimited']
 
 @app.route('/', methods=["POST", "GET"])
 def main():
@@ -23,6 +22,7 @@ def main():
     else:
         img_list = [url_for('static',filename='blank.jpg')]
     return render_template('main.html',pcs=img_list, banner=url_for('static',filename='banner.jpg'))
+    #return redirect('https://hackmd.io/@gBTyCODBRneIN12giDxbfQ/HJESj-48i')
 		
 @app.route('/feedback', methods=["POST", "GET"])
 def feedback():
@@ -30,6 +30,8 @@ def feedback():
         fb = request.form["fb"]
         functions.send_line(fb)
     return render_template('feedback.html')
+    #return redirect('https://hackmd.io/@gBTyCODBRneIN12giDxbfQ/HJESj-48i')
 
-	
+
+
 app.run(host='0.0.0.0', port=81)

@@ -12,8 +12,8 @@
 
   gtag('config', 'G-KCFXVZ93Y6');
 </script>
-<title>抽卡模擬器</title>
-<meta name="description" content="draw pcs!">
+<title>主頁 - 專輯抽卡模擬器</title>
+<meta name="description" content="模擬抽取NCT、SEVENTEEN、Red Velvet、TWICE等藝人的專輯小卡！">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
@@ -22,16 +22,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@700&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/68144b1df7.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/css/select2.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/select2@4.0.13/dist/js/select2.min.js"></script>
 </head>
 
 
 <body>
 
-  <a href='/' ><img class="banner" src="{{ banner }}"></img></a>
+  <a href='/' ><img class="banner" src="{{ url_for('static', filename='banner.jpg') }}"></img></a>
 
 
 <div class="holder">
-  <div class="news">有想抽的團/專輯可以點下方許願池找我許願~</div>
+  <div class="news">遇到500請IG或推特通知我！</div>
 </div>
 
 <div class="content">
@@ -68,6 +71,14 @@
         <option value=24>LOONA - [12:00] B ver. (3 out of 33)</option>
         <option value=25>Red Velvet - Queendom queens ver. (1 out of 10)</option>
         <option value=26>VICTON - 6th Anniversary MD (1 out of 10)</option>
+        <option value=27>NCT 2020 - RESONANCE Pt. 2 Kihno Album Departure ver. (1 out of 22)</option>
+        <option value=28>ASTRO - Drive to the Starry Road Road ver. (2 out of 24)</option>
+        <option value=29>TXT  - THE CHAOS CHAPTER : FIGHT OR ESCAPE Fight ver. (1 out of 5)</option>
+        <option value=30>TXT  - THE CHAOS CHAPTER : FIGHT OR ESCAPE Escape ver. (1 out of 5)</option>
+        <option value=31>Billlie  - track by YOON: Patbingsu Platform Album ver. (3 out of 42)</option>
+        <option value=32>NCT127  - Favorite Catharsis ver. (1 out of 9)</option>
+        <option value=33>NCT127  - Favorite Classic ver. (1 out of 9)</option>
+        <option value=34>ATEEZ  - SPIN OFF: FROM THE WITNESS witness ver. (3 out of 24)</option>
       </select>
     </div>
   <div>
@@ -86,6 +97,16 @@
     <a href="https://twitter.com/INTO105202145?s=20&t=EzQZGuU6BlGluj3jHYzAjg" target="_blank"><i class="fa-brands fa-twitter"></i></a>
 	<a href="https://www.instagram.com/man9oz21/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
     <a href="/feedback">許願池</a>
+    <a href="https://hackmd.io/@Q23RF/HJESj-48i" target="_blank">公告</a>
 </footer>
+
+<script>
+	$(document).ready(function () {
+	//change selectboxes to selectize mode to be searchable
+	   $("select").select2({
+		   width: 'resolve'
+		});
+	});
+</script>
 </body>
 </html>
